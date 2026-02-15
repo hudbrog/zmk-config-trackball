@@ -1,0 +1,17 @@
+#include <physical_layouts.dtsi>
+
+/ {
+    trackball6_layout: trackball6_layout {
+        compatible = "zmk,physical-layout";
+        display-name = "Trackball6";
+
+        keys
+            = <&key_physical_attrs 100 100   0   0 0 0 0>
+            , <&key_physical_attrs 100 100 100   0 0 0 0>
+            , <&key_physical_attrs 100 100 200   0 0 0 0>
+            , <&key_physical_attrs 100 100   0 100 0 0 0>
+            , <&key_physical_attrs 100 100 100 100 0 0 0>
+            , <&key_physical_attrs 100 100 200 100 0 0 0>
+            ;
+    };
+};

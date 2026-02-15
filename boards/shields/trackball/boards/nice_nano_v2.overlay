@@ -1,0 +1,4 @@
+&pro_micro_spi {
+    cs-gpios = <&pro_micro 18 GPIO_ACTIVE_LOW>;
+    status = "okay";
+};

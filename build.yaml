@@ -38,3 +38,6 @@ include:
     snippet: zmk-usb-logging
     cmake-args: -DEXTRA_CONF_FILE=../../config/rolio_nv.conf
     artifact-name: zmk-rolio461-nicenano_v2-nice_view-right-usb-logging
+  - board: nice_nano_v2
+    shield: trackball
+    artifact-name: zmk-trackball-nicenano_v2

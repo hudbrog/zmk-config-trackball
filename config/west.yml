@@ -25,5 +25,8 @@ manifest:
     - name: zmk-analog-input-driver
       remote: badjeff
       revision: main
+    - name: zmk-adns9800-driver
+      remote: badjeff
+      revision: main
   self:
     path: config
