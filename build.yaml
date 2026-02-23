@@ -41,3 +41,7 @@ include:
   - board: nice_nano_v2
     shield: trackball
     artifact-name: zmk-trackball-nicenano_v2
+  - board: nice_nano_v2
+    shield: trackball
+    snippet: zmk-usb-logging
+    artifact-name: zmk-trackball-nicenano_v2-usb-logging
